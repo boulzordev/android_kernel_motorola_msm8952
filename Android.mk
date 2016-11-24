@@ -16,7 +16,6 @@
 #
 # For example:
 # mm kernel-mrproper is the equivalent of running make mrproper
-#
 ifneq ($(ONE_SHOT_MAKEFILE),)
 include build/target/board/Android.mk
 include kernel/AndroidKernel.mk
